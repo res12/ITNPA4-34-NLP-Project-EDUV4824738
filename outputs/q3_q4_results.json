@@ -1,0 +1,564 @@
+{
+  "corpus_summary": [
+    {
+      "doc_id": 1,
+      "file_name": "research_1.txt",
+      "short_label": "Article 1: Mixed Methods",
+      "title": "Mixed Methods Research: A Research Paradigm Whose Time Has Come",
+      "authors": "R. Burke Johnson & Anthony J. Onwuegbuzie",
+      "raw_char_count": 38598,
+      "raw_word_count": 5602,
+      "raw_line_count": 439,
+      "clean_sentence_count": 80,
+      "clean_token_count": 1315,
+      "unique_lemma_vocab": 751,
+      "lexical_diversity_ttr": 0.5711,
+      "top_bigrams": "mixed_method, quantitative_qualitative, data_collection, even_though"
+    },
+    {
+      "doc_id": 2,
+      "file_name": "research_2.txt",
+      "short_label": "Article 2: Reflexivity",
+      "title": "Now I See It, Now I Don't: Researcher's Position and Reflexivity in Qualitative Research",
+      "authors": "Roni Berger",
+      "raw_char_count": 16279,
+      "raw_word_count": 2416,
+      "raw_line_count": 176,
+      "clean_sentence_count": 59,
+      "clean_token_count": 1074,
+      "unique_lemma_vocab": 653,
+      "lexical_diversity_ttr": 0.608,
+      "top_bigrams": "personal_experience, data_collected, data_collection"
+    },
+    {
+      "doc_id": 3,
+      "file_name": "research_3.txt",
+      "short_label": "Article 3: Developmental Research",
+      "title": "Developmental Research: Studies of Instructional Design and Development",
+      "authors": "Rita C. Richey, James D. Klein & Wayne A. Nelson",
+      "raw_char_count": 26521,
+      "raw_word_count": 3828,
+      "raw_line_count": 368,
+      "clean_sentence_count": 154,
+      "clean_token_count": 1713,
+      "unique_lemma_vocab": 731,
+      "lexical_diversity_ttr": 0.4267,
+      "top_bigrams": "design_development, instructional_design, type_developmental, instructional_technology, instructional_development"
+    },
+    {
+      "doc_id": 4,
+      "file_name": "research_4.txt",
+      "short_label": "Article 4: Cronbach's Alpha",
+      "title": "The Use of Cronbach's Alpha When Developing and Reporting Research Instruments in Science Education",
+      "authors": "Keith S. Taber",
+      "raw_char_count": 39072,
+      "raw_word_count": 5922,
+      "raw_line_count": 123,
+      "clean_sentence_count": 183,
+      "clean_token_count": 2650,
+      "unique_lemma_vocab": 921,
+      "lexical_diversity_ttr": 0.3475,
+      "top_bigrams": "cronbach_alpha, science_education, internal_consistency, alpha_value, value_cronbach"
+    },
+    {
+      "doc_id": 5,
+      "file_name": "research_5.txt",
+      "short_label": "Article 5: Triangulation",
+      "title": "Denzin's Paradigm Shift: Revisiting Triangulation in Qualitative Research",
+      "authors": "Patricia Fusch, Gene E. Fusch & Lawrence R. Ness",
+      "raw_char_count": 27142,
+      "raw_word_count": 4027,
+      "raw_line_count": 312,
+      "clean_sentence_count": 154,
+      "clean_token_count": 1702,
+      "unique_lemma_vocab": 727,
+      "lexical_diversity_ttr": 0.4271,
+      "top_bigrams": "mixed_method, data_triangulation, data_collection, methodological_triangulation, case_design"
+    }
+  ],
+  "q3_3_textrank": {
+    "article": "research_1.txt",
+    "total_clean_sentences": 80,
+    "selected_indices": [
+      1,
+      2,
+      22,
+      23,
+      29,
+      48
+    ],
+    "summary_sentences": [
+      {
+        "sent_num": 1,
+        "score": 0.0440840644129869,
+        "text": "The purposes of this article are to position mixed methods research (mixed research is a synonym) as the natural complement to traditional qualitative and quantitative research, to present pragmatism as offering an attractive philosophical partner for mixed methods research, and to provide a framework for designing and conducting mixed methods research."
+      },
+      {
+        "sent_num": 2,
+        "score": 0.03045259246104023,
+        "text": "In doing this, we briefly review the paradigm \"wars\" and incompatibility thesis, we show some commonalities between quantitative and qualitative research, we explain the tenets of pragmatism, we explain the fundamental principle of mixed research and how to apply it, we provide specific sets of designs for the two major types of mixed methods research (mixed-model designs and mixed-method designs), and, finally, we explain mixed methods research as following (recursively) an eight-step process."
+      },
+      {
+        "sent_num": 22,
+        "score": 0.035774348394771956,
+        "text": "Our purpose in writing this article is to present mixed methods research as the third research paradigm in educational research."
+      },
+      {
+        "sent_num": 23,
+        "score": 0.04544295711223881,
+        "text": "We hope the field will move beyond quantitative versus qualitative research arguments because, as recognized by mixed methods research, both quantitative and qualitative research are important and useful."
+      },
+      {
+        "sent_num": 29,
+        "score": 0.04693587142742749,
+        "text": "Mixed methods research as the third research paradigm can also help bridge the schism between quantitative and qualitative research."
+      },
+      {
+        "sent_num": 48,
+        "score": 0.0327830298333048,
+        "text": "We contend that epistemological and paradigmatic ecumenicalism is within reach in the research paradigm of mixed methods research."
+      }
+    ],
+    "compression_pct": 96.26918957515174
+  },
+  "q3_4_aggregate_lsa": {
+    "total_clean_sentences_art2_5": 550,
+    "svd_explained_variance_4comp": [
+      0.00426721373485132,
+      0.016903948614609986,
+      0.015055720061701998,
+      0.010541045461705641
+    ],
+    "summary_sentences": [
+      {
+        "rank": 1,
+        "source_file": "research_3.txt",
+        "source_label": "Article 3: Developmental Research",
+        "lsa_saliency": 0.9999999999994866,
+        "sentence": "In its simplest form, developmental research can be either the study of the process and impact of specific instructional design and development efforts; or a situation in which someone is performing instructional design, development, or evaluation activities and studying the process at the same time; or the study of the instructional design, development, and evaluation process as a whole or of particular process components."
+      },
+      {
+        "rank": 2,
+        "source_file": "research_5.txt",
+        "source_label": "Article 5: Triangulation",
+        "lsa_saliency": 0.9499748448200874,
+        "sentence": "Denzin (1989) suggested data triangulation for correlating people, time, and space; investigator triangulation for correlating the findings from multiple researchers in a study; theory triangulation for using and correlating multiple theoretical strategies; and methodological triangulation for correlating data from multiple data collection methods."
+      },
+      {
+        "rank": 3,
+        "source_file": "research_4.txt",
+        "source_label": "Article 4: Cronbach's Alpha",
+        "lsa_saliency": 0.7981792223359744,
+        "sentence": "The Frequency of Use of Cronbach's Alpha in Science Education To give an indication of the extent to which Cronbach's alpha is used in science education research, a survey was undertaken of papers published in issues of four prestigious science education journals during one academic year."
+      },
+      {
+        "rank": 4,
+        "source_file": "research_3.txt",
+        "source_label": "Article 3: Developmental Research",
+        "lsa_saliency": 0.7671899922834733,
+        "sentence": "The purposes of this chapter are to explore the nature and background of developmental research; describe the major types of developmental research by examining a range of representative projects; analyze the methodological approaches used in the various types of developmental research; describe the issues, findings, and trends in recent developmental research; and discuss the future of this type of research in our field."
+      },
+      {
+        "rank": 5,
+        "source_file": "research_4.txt",
+        "source_label": "Article 4: Cronbach's Alpha",
+        "lsa_saliency": 0.7549693005947394,
+        "sentence": "Adadan and Savasci call upon the Cronbach alpha statistic and relate it to both the terms reliability and internal consistency: The reliability of [the Nature of Solutions and Solubility-Diagnostic Instrument] was represented by using the Cronbach alpha coefficient."
+      },
+      {
+        "rank": 6,
+        "source_file": "research_5.txt",
+        "source_label": "Article 5: Triangulation",
+        "lsa_saliency": 0.8616857484482968,
+        "sentence": "The Triangulation Confusion Frequently, we see confusion in qualitative research between data triangulation versus methodological triangulation."
+      },
+      {
+        "rank": 7,
+        "source_file": "research_2.txt",
+        "source_label": "Article 2: Reflexivity",
+        "lsa_saliency": 0.547964282070027,
+        "sentence": "One goal of reflexivity in qualitative research is to monitor such effects and thus enhance the accuracy of the research and 'the credibility of the findings by accounting for researcher values, beliefs, knowledge, and biases' (Cutcliffe, 2003: 137), that is, to gain plausibility by securing research's trustworthiness (Buckner, 2005; Macbeth, 2001)."
+      },
+      {
+        "rank": 8,
+        "source_file": "research_2.txt",
+        "source_label": "Article 2: Reflexivity",
+        "lsa_saliency": 0.44181914777743464,
+        "sentence": "Because reflexivity is a major strategy for quality control in qualitative research, understanding how it may be impacted by the characteristics and experiences of the researcher is of paramount importance."
+      }
+    ]
+  },
+  "q4_1_lda": {
+    "num_passages": 111,
+    "vocab_size_filtered": 1161,
+    "coherence_sweep": [
+      {
+        "k": 3,
+        "coherence_cv": 0.5455999081725701,
+        "log_perplexity": -6.700927668607582,
+        "perplexity": 813.1598182219392
+      },
+      {
+        "k": 4,
+        "coherence_cv": 0.4608188933150557,
+        "log_perplexity": -6.765153781140592,
+        "perplexity": 867.0995410939299
+      },
+      {
+        "k": 5,
+        "coherence_cv": 0.4787875746366252,
+        "log_perplexity": -6.7670864906402155,
+        "perplexity": 868.777013125022
+      },
+      {
+        "k": 6,
+        "coherence_cv": 0.4103248645884355,
+        "log_perplexity": -6.960103671022368,
+        "perplexity": 1053.742794172654
+      },
+      {
+        "k": 7,
+        "coherence_cv": 0.37925131424458575,
+        "log_perplexity": -7.024869202912976,
+        "perplexity": 1124.2475010897597
+      },
+      {
+        "k": 8,
+        "coherence_cv": 0.3806565847090977,
+        "log_perplexity": -7.056498930997258,
+        "perplexity": 1160.3754911603405
+      }
+    ],
+    "optimal_k": 3,
+    "topics": [
+      {
+        "topic_id": 1,
+        "top_words": [
+          {
+            "word": "triangulation",
+            "prob": 0.04248778522014618
+          },
+          {
+            "word": "denzin",
+            "prob": 0.027866767719388008
+          },
+          {
+            "word": "data",
+            "prob": 0.02452022023499012
+          },
+          {
+            "word": "data_triangulation",
+            "prob": 0.020524440333247185
+          },
+          {
+            "word": "methodological_triangulation",
+            "prob": 0.015877803787589073
+          },
+          {
+            "word": "method",
+            "prob": 0.014529144391417503
+          },
+          {
+            "word": "source",
+            "prob": 0.014156190678477287
+          },
+          {
+            "word": "concept",
+            "prob": 0.013310842216014862
+          },
+          {
+            "word": "multiple",
+            "prob": 0.01157347857952118
+          },
+          {
+            "word": "validity",
+            "prob": 0.009871793910861015
+          }
+        ],
+        "words_str": "triangulation (0.042), denzin (0.028), data (0.025), data_triangulation (0.021), methodological_triangulation (0.016), method (0.015), source (0.014), concept (0.013), multiple (0.012), validity (0.010)",
+        "peak_article": "Article 5: Triangulation"
+      },
+      {
+        "topic_id": 2,
+        "top_words": [
+          {
+            "word": "qualitative",
+            "prob": 0.023331189528107643
+          },
+          {
+            "word": "mixed_method",
+            "prob": 0.021536676213145256
+          },
+          {
+            "word": "design",
+            "prob": 0.01702139712870121
+          },
+          {
+            "word": "method",
+            "prob": 0.01686989702284336
+          },
+          {
+            "word": "data",
+            "prob": 0.013745537027716637
+          },
+          {
+            "word": "quantitative",
+            "prob": 0.010577799752354622
+          },
+          {
+            "word": "approach",
+            "prob": 0.01037638820707798
+          },
+          {
+            "word": "student",
+            "prob": 0.009472685866057873
+          },
+          {
+            "word": "case_design",
+            "prob": 0.00905985664576292
+          },
+          {
+            "word": "interview",
+            "prob": 0.008763030171394348
+          }
+        ],
+        "words_str": "qualitative (0.023), mixed_method (0.022), design (0.017), method (0.017), data (0.014), quantitative (0.011), approach (0.010), student (0.009), case_design (0.009), interview (0.009)",
+        "peak_article": "Article 2: Reflexivity"
+      },
+      {
+        "topic_id": 3,
+        "top_words": [
+          {
+            "word": "instrument",
+            "prob": 0.013910005800426006
+          },
+          {
+            "word": "alpha",
+            "prob": 0.012511445209383965
+          },
+          {
+            "word": "cronbach_alpha",
+            "prob": 0.012375778518617153
+          },
+          {
+            "word": "development",
+            "prob": 0.012148125097155571
+          },
+          {
+            "word": "scale",
+            "prob": 0.011776015162467957
+          },
+          {
+            "word": "reliability",
+            "prob": 0.011211330071091652
+          },
+          {
+            "word": "item",
+            "prob": 0.010673081502318382
+          },
+          {
+            "word": "value",
+            "prob": 0.01006335485726595
+          },
+          {
+            "word": "knowledge",
+            "prob": 0.01004081405699253
+          },
+          {
+            "word": "process",
+            "prob": 0.008251631632447243
+          }
+        ],
+        "words_str": "instrument (0.014), alpha (0.013), cronbach_alpha (0.012), development (0.012), scale (0.012), reliability (0.011), item (0.011), value (0.010), knowledge (0.010), process (0.008)",
+        "peak_article": "Article 4: Cronbach's Alpha"
+      }
+    ],
+    "doc_topic_table": [
+      {
+        "Article": "Article 1: Mixed Methods",
+        "Topic 1": 0.00846188049763441,
+        "Topic 2": 0.8671582937240601,
+        "Topic 3": 0.12437978386878967,
+        "Dominant_Topic": "Topic 2"
+      },
+      {
+        "Article": "Article 2: Reflexivity",
+        "Topic 1": 0.0005712693673558533,
+        "Topic 2": 0.952903151512146,
+        "Topic 3": 0.04652564972639084,
+        "Dominant_Topic": "Topic 2"
+      },
+      {
+        "Article": "Article 3: Developmental Research",
+        "Topic 1": 0.0002537755062803626,
+        "Topic 2": 0.049778103828430176,
+        "Topic 3": 0.949968159198761,
+        "Dominant_Topic": "Topic 3"
+      },
+      {
+        "Article": "Article 4: Cronbach's Alpha",
+        "Topic 1": 0.004852825775742531,
+        "Topic 2": 0.0001948065619217232,
+        "Topic 3": 0.994952380657196,
+        "Dominant_Topic": "Topic 3"
+      },
+      {
+        "Article": "Article 5: Triangulation",
+        "Topic 1": 0.5700511932373047,
+        "Topic 2": 0.4296659231185913,
+        "Topic 3": 0.00028291111811995506,
+        "Dominant_Topic": "Topic 1"
+      }
+    ]
+  },
+  "q4_2_pyldavis": {
+    "html_file": "pyldavis_intertopic_map.html",
+    "topic_coordinates": [
+      {
+        "topics": 1,
+        "x": 0.08522774647392747,
+        "y": 0.14333535957368365,
+        "Freq": 12.599089211352233
+      },
+      {
+        "topics": 2,
+        "x": 0.10573808243701718,
+        "y": -0.1279060316624609,
+        "Freq": 33.680531797760025
+      },
+      {
+        "topics": 3,
+        "x": -0.19096582891094466,
+        "y": -0.015429327911222774,
+        "Freq": 53.72037899088774
+      }
+    ],
+    "top_salient_terms": [
+      {
+        "Term": "triangulation",
+        "Total": 41.0,
+        "Freq": 41.0
+      },
+      {
+        "Term": "data",
+        "Total": 54.0,
+        "Freq": 54.0
+      },
+      {
+        "Term": "denzin",
+        "Total": 27.0,
+        "Freq": 27.0
+      },
+      {
+        "Term": "mixed_method",
+        "Total": 52.0,
+        "Freq": 52.0
+      },
+      {
+        "Term": "method",
+        "Total": 53.0,
+        "Freq": 53.0
+      },
+      {
+        "Term": "qualitative",
+        "Total": 65.0,
+        "Freq": 65.0
+      },
+      {
+        "Term": "data_triangulation",
+        "Total": 18.0,
+        "Freq": 18.0
+      },
+      {
+        "Term": "methodological_triangulation",
+        "Total": 14.0,
+        "Freq": 14.0
+      },
+      {
+        "Term": "concept",
+        "Total": 32.0,
+        "Freq": 32.0
+      },
+      {
+        "Term": "source",
+        "Total": 13.0,
+        "Freq": 13.0
+      },
+      {
+        "Term": "alpha",
+        "Total": 47.0,
+        "Freq": 47.0
+      },
+      {
+        "Term": "quantitative",
+        "Total": 25.0,
+        "Freq": 25.0
+      },
+      {
+        "Term": "cronbach_alpha",
+        "Total": 47.0,
+        "Freq": 47.0
+      },
+      {
+        "Term": "development",
+        "Total": 46.0,
+        "Freq": 46.0
+      },
+      {
+        "Term": "approach",
+        "Total": 25.0,
+        "Freq": 25.0
+      },
+      {
+        "Term": "scale",
+        "Total": 44.0,
+        "Freq": 44.0
+      },
+      {
+        "Term": "multiple",
+        "Total": 22.0,
+        "Freq": 22.0
+      },
+      {
+        "Term": "design",
+        "Total": 54.0,
+        "Freq": 54.0
+      },
+      {
+        "Term": "instrument",
+        "Total": 54.0,
+        "Freq": 54.0
+      },
+      {
+        "Term": "item",
+        "Total": 40.0,
+        "Freq": 40.0
+      },
+      {
+        "Term": "validity",
+        "Total": 13.0,
+        "Freq": 13.0
+      },
+      {
+        "Term": "reliability",
+        "Total": 47.0,
+        "Freq": 47.0
+      },
+      {
+        "Term": "bias",
+        "Total": 22.0,
+        "Freq": 22.0
+      },
+      {
+        "Term": "reading",
+        "Total": 11.0,
+        "Freq": 11.0
+      },
+      {
+        "Term": "reflexivity",
+        "Total": 19.0,
+        "Freq": 19.0
+      }
+    ]
+  }
+}

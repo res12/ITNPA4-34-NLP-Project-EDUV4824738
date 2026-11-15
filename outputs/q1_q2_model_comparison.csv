@@ -1,0 +1,12 @@
+Model,Train_Acc,Train_F1_AI,CV_Acc,CV_F1_AI,Test_Acc,Test_Prec_AI,Test_Rec_AI,Test_F1_AI,Test_Macro_F1,Test_ROC_AUC,Test_PR_AUC
+Dummy Majority Classifier,0.7911,0.0,0.7911,0.0,0.7911,0.0,0.0,0.0,0.4417,0.5,0.2089
+Multinomial Naive Bayes (Baseline),0.8367,0.3581,0.8,0.0803,0.8089,1.0,0.0851,0.1569,0.5245,0.8578,0.7195
+Logistic Regression,0.9,0.6853,0.8489,0.4267,0.8356,0.9167,0.234,0.3729,0.6391,0.8738,0.7471
+Linear SVM (Calibrated),1.0,1.0,0.9233,0.7952,0.8978,0.8,0.6809,0.7356,0.8361,0.8694,0.7623
+Complement Naive Bayes,0.9356,0.8199,0.8578,0.4854,0.8622,0.8636,0.4043,0.5507,0.7347,0.8578,0.7195
+Random Forest,1.0,1.0,0.9022,0.6976,0.8933,1.0,0.4894,0.6571,0.797,0.9234,0.8564
+MLP Neural Network,0.9656,0.9101,0.8756,0.5765,0.8578,0.8947,0.3617,0.5152,0.7159,0.8624,0.7374
+Enhancement A: Hybrid Word+Char FeatureUnion (LinearSVC),1.0,1.0,0.9267,0.8053,0.8889,0.775,0.6596,0.7126,0.8219,0.8862,0.8058
+Enhancement B: + Cost-Sensitive Balancing (LinearSVC),1.0,1.0,0.9244,0.7991,0.8933,0.7949,0.6596,0.7209,0.8275,0.8873,0.8046
+Enhancement C1: Tuned Hybrid Soft-Voting Ensemble (t=0.50),1.0,1.0,0.9311,0.807,0.9022,0.8571,0.6383,0.7317,0.836,0.8885,0.8017
+Enhancement C2: Tuned Hybrid Ensemble + OOF Threshold (t=0.45),1.0,1.0,0.9311,0.807,0.9022,0.8378,0.6596,0.7381,0.839,0.8885,0.8017
